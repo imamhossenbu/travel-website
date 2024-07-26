@@ -4,7 +4,7 @@ mobile screen.....
 
 @media screen and (max-width:576px){
     .nav-container{
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
         margin-top: 50px;
     }
@@ -16,7 +16,7 @@ mobile screen.....
         font-size: 1.5rem;
     }
     .header-container{
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
         margin-top: 20px;
         height: 550px;
@@ -54,6 +54,18 @@ mobile screen.....
         margin-left: 20px;
         margin-bottom: 15px;
         padding: 20px 0;
+    }
+    .main-container{
+        width: 85%;
+    }
+    .main-popular-container{
+        flex-direction: column;
+    }
+    .main-popular-desc{
+        width: 100%;
+    }
+    .main-popular-img{
+        width: 100%;
     }
 }
 
@@ -118,6 +130,18 @@ medium screen........
         margin-bottom: 15px;
         padding: 20px 0;
     }
+    .main-container{
+        width: 85%;
+    }
+    .main-popular-container{
+        flex-direction: column;
+    }
+    .main-popular-desc{
+        width: 100%;
+    }
+    .main-popular-img{
+        width: 100%;
+    }
 }
 
 
@@ -130,5 +154,16 @@ medium large......
 @media screen and (min-width:768px) and (max-width:992px){
     .input{
         width: 80%;
+    }
+    .main-popular-container{
+        gap: 20px;
+    }
+    .main-popular-img{
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .main-popular-img img{
+        width: 100%;
     }
 }
