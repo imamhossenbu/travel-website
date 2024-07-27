@@ -68,10 +68,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     width: 100%;
 }
@@ -90,17 +91,20 @@
 }
 .maldives {
     background-image: url('../images/maldives.png');
-    grid-column: span 2;
+    grid-column: span 3;
 }
 .indonesia {
-    background-image: url("../images/indonesia.png")
+    background-image: url("../images/indonesia.png");
+    grid-column: span 3;
 }
 .srilanka {
     background-image: url('../images/srilanka.png'); 
+    grid-column: span 2;
 }
 
 .north-america {
     background-image: url('../images/america.png'); 
+    grid-column: span 3;
 }
 
 .kashmir {
@@ -109,19 +113,54 @@
 
 .bangladesh {
     background-image: url('../images/bangladesh.png'); 
+    grid-column: span 2;
 }
 
 .bandarban {
     background-image: url('../images/bandarban.png');
-    grid-column: span 2;
+    grid-column: span 4;
 }
 
-/* 
-.image{
-    position: relative;
+.item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
-.image-title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-} */
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    height: 400px;
+}
+.item1{
+    grid-column: span 2;
+    border: 1px solid rgb(250, 235, 215);
+    background-color: rgba(250, 235, 215, 0.21);
+}
+.item2{
+    grid-column: span 2;
+    border: 1px solid rgba(127, 255, 212, 0.835);
+    background-color: rgba(127, 255, 212, 0.117);
+}
+.item3{
+    grid-column: 2/4;
+    border: 1px solid rgba(165, 117, 4, 0.515);
+    background-color: rgba(165, 117, 4, 0.097);
+    
+}
+.card{
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.card p{
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 600;
+}
