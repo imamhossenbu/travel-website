@@ -212,9 +212,13 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.312);
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.165));
 }
+
+
 .btn{
     text-align: center;
 }
+
+
 .main-btn{
     padding: 10px 15px;
     border: none;
@@ -233,27 +237,41 @@
     gap: 40px;
     margin-bottom: 100px;
 }
+
+
 .main-simple-desc{
     width: 47%;
 }
+
+
 .main-simple-desc h1{
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 20px
 }
+
+
+
 .main-simple-desc p{
     opacity: 0.7;
     font-size: 14px;
 }
+
+
 .main-simple-desc ul{
     margin-left: 25px;
     font-size: 14px;
     font-weight: 600;
     /* opacity: 0.7; */
 }
+
+
+
 .main-simple-desc ul li{
     margin-bottom: 25px;
 }
+
+
 .main-simple-desc button{
     margin-top: 10px;
     padding: 10px 30px;
@@ -264,6 +282,8 @@
     font-weight: 700;
     border-radius: 8px;
 }
+
+
 .main-simple-img{
     width: 53%;
     display: flex;
@@ -285,3 +305,7 @@
 .main-simple-img img{
     width: 100%;
 }
+
+
+
+
