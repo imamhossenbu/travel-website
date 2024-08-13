@@ -110,6 +110,39 @@ mobile screen.....
         width: 100%;
         height: 400px;
     }
+    .newsletter-container{
+        width: 85%;
+        flex-direction: column;
+    }
+    .newsletter-form{
+        width: 100%;
+        padding: 10px 25px;
+    }
+    .newsletter-form input[type='text']{
+        /* padding: 14px 40% 14px 15px; */
+        width: 42%;
+    }
+    .newsletter-form input[type='email']{
+        /* padding: 14px 40% 14px 15px; */
+        width: 42%;
+    }
+    .newsletter-form button{
+        width: 98%;
+        text-align: center;
+    }
+    .newsletter-image{
+        width: 100%;
+    }
+    .newsletter-image img{
+        width: 116%;
+    }
+    .newsletter-card{
+        width: 70%;
+        /* height: 40%; */
+        bottom: 22%;
+        right: 1%;
+        left: 42%;
+    }
     .footer-container{
         width: 90%;
     }
@@ -219,6 +252,39 @@ medium screen........
         width: 100%;
         height: 400px;
     }
+    .newsletter-container{
+        width: 85%;
+        flex-direction: column;
+    }
+    .newsletter-form{
+        width: 100%;
+        padding: 10px 35px;
+    }
+    .newsletter-form input[type='text']{
+        /* padding: 14px 40% 14px 15px; */
+        width: 42%;
+    }
+    .newsletter-form input[type='email']{
+        /* padding: 14px 40% 14px 15px; */
+        width: 42%;
+    }
+    .newsletter-form button{
+        width: 98%;
+        text-align: center;
+    }
+    .newsletter-image{
+        width: 100%;
+    }
+    .newsletter-image img{
+        width: 116%;
+    }
+    .newsletter-card{
+        width: 60%;
+        /* height: 40%; */
+        bottom: 20%;
+        right: 1%;
+        left: 55%;
+    }
     .footer-logo{
         padding-top: 60px;
     }
@@ -255,5 +321,27 @@ medium large......
     }
     .image-card2{
         width: 70%;
+    }
+    .newsletter-form{
+        width: 40%;
+        padding: 10px;
+    }
+    .newsletter-form input[type='text']{
+        width: 40%;
+    }
+    .newsletter-form input[type='email']{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .newsletter-form button{
+        /* padding: 14px 20%; */
+        width: 98%;
+    }
+    .newsletter-image{
+        width: 60%;
+        height: fit-content;
+    }
+    .newsletter-image img{
+        width: 100%;
     }
 }
