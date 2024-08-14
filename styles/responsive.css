@@ -95,6 +95,29 @@ mobile screen.....
         left: 5%;
         top: 20%;
     }
+    .card-icon{
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        padding-left: 10px;
+        padding-top: 10px;
+        gap: 5px;
+    }
+    .card-icon .clock{
+        /* display: block; */
+    }
+    .image-card h2{
+        padding-left: 10px;
+    }
+    .image-card>p{
+        padding-left: 10px;
+    }
+    .image-card h1{
+        padding-left: 10px;
+    }
+    .image-card button{
+        margin-left: 10px;
+    }
     .main-simple-container{
         flex-direction: column;
     }
